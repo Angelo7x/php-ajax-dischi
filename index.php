@@ -15,6 +15,19 @@
 
     <?php require __DIR__ . "/Partials/Template/header.php"?>
 
-    <div class="albums_container"></div>
+    <main>
+        <div class="albums_container">
+            <div class="album">
+                <?php foreach($database as $album) { ?>
+                    <?php
+                    
+                     echo echo '<img src="'$album["poster"]'">';
+
+                    ?>
+
+                <?php } ?>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
