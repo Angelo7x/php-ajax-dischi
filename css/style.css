@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
-
 /* header */
 .header_container {
     width: 100%;
@@ -45,9 +41,8 @@ main {
     color: white;
     padding: 20px;
     background-color: #2E3A46;
-    width: calc((100% / 3) - 40px);
+    width: calc((100% / 5) - 40px);
 }
-
 .album div {
     color: #80746c;
     width: 100%;
@@ -56,6 +51,9 @@ main {
     width: 100%;
 }
 
+
+}
 h1 {
     margin: 20px 0;
 }
+
