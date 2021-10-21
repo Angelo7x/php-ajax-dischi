@@ -19,12 +19,10 @@
         <div class="albums_container">
             <div class="album">
                 <?php foreach($database as $album) { ?>
-                    <?php
-                    
-                     echo echo '<img src="'$album["poster"]'">';
-
-                    ?>
-
+                    <img src="<?php echo $album['poster'] ?>">
+                    <h1><?php echo $album['title']?></h1>
+                    <div><?php echo $album['author']?></div>
+                    <div><?php echo $album['year']?></div>
                 <?php } ?>
             </div>
         </div>

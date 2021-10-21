@@ -27,6 +27,7 @@ body {
 main {
     height: calc(100vh - 70px);
     background-color: #1e2d3b;
+    /* overflow-y: hidden; */
 }
 
 .albums_container {
@@ -37,3 +38,24 @@ main {
     flex-wrap: wrap;
 }
 
+.album {
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #2E3A46;
+    width: calc((100% / 3) - 40px);
+}
+
+.album div {
+    color: #80746c;
+    width: 100%;
+}
+.album img {
+    width: 100%;
+}
+
+h1 {
+    margin: 20px 0;
+}
