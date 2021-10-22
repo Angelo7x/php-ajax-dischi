@@ -20,7 +20,7 @@
             <?php foreach($database as $album) { ?>
                 <div class="album">
                     <img src="<?php echo $album['poster'] ?>">
-                    <h1><?php echo $album['title']?></h1>
+                    <h2><?php echo $album['title']?></h2>
                     <div><?php echo $album['author']?></div>
                     <div><?php echo $album['year']?></div>
                 </div>
