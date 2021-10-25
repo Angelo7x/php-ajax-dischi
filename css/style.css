@@ -27,7 +27,7 @@ main {
 }
 
 .albums_container {
-    padding-top: 30px;
+    margin-top: 40px;
     width: 70%;
     margin: 0 auto;
     display: flex;
